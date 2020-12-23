@@ -32,7 +32,7 @@ REQUIRED_PACKAGES = [
     # has too many external non-python dependencies.
     'dopamine-rl <= 3.0.1',
     'imageio',
-    'librosa >= 0.6.2, < 0.8.0',
+    'librosa >= 0.6.2, < 0.9.0',
     'matplotlib >= 1.5.3',
     'mido == 1.2.6',
     'mir_eval >= 0.4',
