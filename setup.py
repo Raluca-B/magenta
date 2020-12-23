@@ -37,7 +37,7 @@ REQUIRED_PACKAGES = [
     'mido == 1.2.6',
     'mir_eval >= 0.4',
     'note-seq',
-    'numba < 0.50',  # temporary fix for librosa import
+    'numba < 0.52',  # temporary fix for librosa import
     'numpy',
     'Pillow >= 3.4.2',
     'pretty_midi >= 0.2.6',
