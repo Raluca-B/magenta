@@ -30,7 +30,7 @@ REQUIRED_PACKAGES = [
     # tensor2tensor has a dependency on dopamine-rl, which we don't use.
     # pin to a version that doesn't require pygame installation because that
     # has too many external non-python dependencies.
-    'dopamine-rl <= 3.0.1',
+    'dopamine-rl < 3.1.14',
     'imageio',
     'librosa >= 0.6.2, < 0.8.0',
     'matplotlib >= 1.5.3',
