@@ -34,7 +34,7 @@ REQUIRED_PACKAGES = [
     'imageio',
     'librosa >= 0.6.2, < 0.8.0',
     'matplotlib >= 1.5.3',
-    'mido == 1.2.6',
+    'mido == 1.2.10',
     'mir_eval >= 0.4',
     'note-seq',
     'numba < 0.50',  # temporary fix for librosa import
